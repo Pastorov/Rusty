@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Website</title>
+</head>
+
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+        <p>We are a 3 person team making a game show called Rust Death Maze. The team was created at the end of 2020, 
+            but the 4-person team left 2 people who ambitiously continued the project. The main idea behind rusty 
+            production is to show how funny a death maze is in motion with the right people and good editing. 
+            When it comes to how the Death Maze works, it is the players who have to go through several stages. 
+            But each stage will have 3 choices, which 1 of them can safely go to the next stage, but if the player 
+            chooses wrong, he may die immediately.</p>
+    </section>
+        <!---About Us-->
+    
+        <section class="about-us">
+        
+        <div class="row">
+            <div class="about-col">
+                <h1>Rusty Production the Best Death Maze in Rust.</h1>
+                <p>The name of this project is ‘Primazia’ as it serves to affiliate with Amazon’s Prime subscription model as well
+                     as encompassing aspects of a Maze. The maze will exist within a video game environment and will not feature a 
+                     roof, so a camera can follow the contestants as they travel through the maze from a ‘bird’s eye’ perspective. Each time a decision needs to be made by a contestant within the maze, the viewer will receive an on-screen prompt for choice of A, B and C for the respective doors. Similar to how on the gameshow The Chase (ITV, 2020) features an on-screen prompt for the three available choices for the viewers. One door will lead to certain death, another will be a survivable encounter to then pick 
+                    another choice and the third choice will be the correct door to which the contestant can progress to the next section.
+                    Death Maze in Rust is a lot of fun, but also requires a lot of work. 
+                    That's why our man Harrison Wood is the right person for it. He has a lot of experience building servers and maps in Rust.
+                     Harrison knows exactly how to set up all the traps and keep everything working as it should.</p>
+                     <h1>Harrison Wood</h1>
+                    <a href="harrison.html" class="hero-btn red-btn">Harrison Wood</a>
+                    <p>Here are behind the scenes done by Harrison.</p>
+            </div>
+            <div class="about-col">
+                <h5>Dodgy Dave's Office</h5>
+                <img src="images/office.JPG">
+                <h5>Dodgy Dave's Garage</h5>
+                <img src="images/garage.JPG">
+                <h5>Bandit Camp Gambling Room - Gameshow studio</h5>
+                <img src="images/gamblingroom.JPG">
+                <h5>Traps behind the doors</h5>
+                <img src="images/abc.JPG">
+                
+                <h1>Web Development</h1>
+                <p>Website was made by Daniel Pastor. The main idea of ​​this website is to show what Rusty Production
+                     is, how the death maze works, and mainly to show video clips of the death maze. Daniel's most important task was to make a functional website.</p>
+                <a href="daniel.html" class="hero-btn red-btn">Daniel Pastor</a>
+                <p>Here is some work done by Daniel.</p>
+
+                <h5>Logo of Rusty Production</h5>
+                <img src="images/Logo.png">
+                
+                    
+            </div>
+        </div>
+    
+        
+    </section>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--- Footer --->
+
+    <div class="footer">
+        <h4>Follow Us</h4>
+        <p>You can follow us on our social medias.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+        </div>
+    
+
+    
+
+
+
+
+
+    <!-----JavaScript for Toggle Menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
